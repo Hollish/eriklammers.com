@@ -1,16 +1,90 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  background: transparent;
+h1  {font-family: 'Encode Sans Semi Condensed'; color: #FFFFFF; text-align: center}
+h2  {font-family: 'Encode Sans Semi Condensed'; color: #FFFFFF; margin-top: 10px;}
+a   {font-family: 'Encode Sans Semi Condensed'; color: #A4A4A4; }
+a b {color: #9D58FF}
+
+body {
+  background-color: #242424;
 }
 
+.panel {
+  background-color:#242424;
+  font-family: 'Encode Sans Semi Condensed'; color: #FFF; 
+  border-color: transparent;
+}
+
+.panel-body {
+  background-color: #444444;
+}
+
+.panel.with-nav-tabs .panel-heading{
+  padding: 5px 5px 0 5px;
+  width:60%;
+  margin: 0 20%;
+  background-color:#242424;
+  border-color: transparent;
+}
+.panel.with-nav-tabs .nav-tabs{
+  border-color: transparent;
+}
+.panel.with-nav-tabs .nav-justified{
+  margin-bottom: -1px;
+}
+
+/*** PANEL DEFAULT ***/
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+  color: #777;
+	border-color: transparent;
+}
+
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+	background-color: #333333;
+}
+
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus {
+  color: #777;
+	background-color: #444444;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+	color: #555;
+	background-color: #444444;
+  border-color: transparent;
+}
+
+.panel-body {
+  width: 70%;
+  margin: 0 15%;
+}
+
+.panel-body img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 532;
+}
+
+.panel-body .col-md-6 {
+  padding: 5%;
+}
+.panel-body ul{
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.panel-body ul li {
+  list-style-type: none;
+  word-wrap: none;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 10%;
+}
