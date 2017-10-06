@@ -1,13 +1,11 @@
-/*----larger desktop------*/
-@media ( max-width:1367){
-    
-}
 
-/*----standard desktop------*/
-@media ( max-width:1023px){
-	
-}
-
-@media ( max-width:479px){
-
+@media screen and (max-width:767px){
+    .panel.with-nav-tabs .panel-heading{
+        width:90%;
+        margin: 0 5%;
+    }
+    .panel-body{
+        width:90%;
+        margin: 0 5%;
+    }
 }
